@@ -2,7 +2,7 @@
  * Colors & Fonts
  * ------------------------------------- */
 $navbar-color: black;
-$navbar-hover-color: $yellow;
+$navbar-hover-color: $red;
 $navbar-font-family: $header-font;
 $navbar-bg: white;
 
@@ -12,8 +12,10 @@ $navbar-bg: white;
 $navbar-height: 50px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
+/*$navbar-horizontal-padding: 10%;*/
 $navbar-border-bottom-width: 0;
-$navbar-border-bottom-color: grey;
+$navbar-border-bottom-color: black;
+$navbar-border-me: $gray-lighter;
 
 /* -------------------------------------
  * Navbar button
@@ -31,6 +33,18 @@ $navbar-profile-radius: 50%;
 $navbar-profile-border-color: white;
 $navbar-profile-border-width: 2px;
 
+.navbarcustom {
+  border-bottom: 1px solid $navbar-border-me;
+  padding-bottom: 10px;
+  }
+
+.navbar-wagon a {
+  font-size: 120%;
+}
+
+
+
+
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
@@ -41,6 +55,7 @@ $navbar-profile-border-width: 2px;
   font-weight: 400;
   padding-left: $navbar-horizontal-padding;
   padding-right: $navbar-horizontal-padding;
+  /*border-bottom: 1px solid $ligne;*/
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;

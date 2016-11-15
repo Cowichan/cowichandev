@@ -2,23 +2,26 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+/*@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Linden+Hill" rel="stylesheet");
+
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+$header-font: "Linden+Hill", "Brandon", "sans-serif";
 
-// Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+ @font-face {
+   font-family: "Brandon";
+   src: font-url('BrandonLight.eot');
+   src: font-url('BrandonLight.eot?#iefix') format('embedded-opentype'),
+        font-url('BrandonLight.woff') format('woff'),
+        font-url('BrandonLight.ttf') format('truetype')
+ }
+ $brandon: "Brandon", "Helvetica", "sans-serif";
 
-// Font-size and line-height
+// Font-size and line-height*/
 $base-size: 16px;
 $base-height: 1.4;
+/*$body: #fff;*/
+
 
 /* -------------------------------------
  * Colors
@@ -30,6 +33,9 @@ $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
 $purple: #6452BD;
+$plight: #564356;
+$white: #fff;
+$ligne: #777777;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
@@ -37,3 +43,11 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+$mygraybg: #f5f5f5;
+$mygrayhr: #e6e6e6;
+
+
+
+
+

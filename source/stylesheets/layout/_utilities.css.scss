@@ -7,6 +7,19 @@
   padding-top: 8em;
   padding-bottom: 8em;
 }
+.paddedmoins {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.paddedphotos {
+  padding-bottom: 2em;
+}
+.paddedfooter {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
 .bg-red {
   background: $red;
   color: white;
@@ -31,3 +44,39 @@
   background: $purple;
   color: white;
 }
+.bg-white {
+  background: $white;
+  color: $ligne;
+  /*text-decoration: $link-hover-decoration;*/
+}
+.bg-gray {
+  /*background: $white;*/
+  color: $ligne;
+  /*text-decoration: $link-hover-decoration;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1c1c1c;
+}
+
+.container {
+  max-width: 760px;
+}
+
+.container2 {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+
+a {
+
+  color: $red;
+}
+
+a:hover, a:focus {
+  color: $red;
+  text-decoration: underline;
+}
+
