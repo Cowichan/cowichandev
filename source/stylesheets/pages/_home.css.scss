@@ -126,3 +126,22 @@ transition-delay:.2s;
 
 /* END */
 
+
+/* PORTFOLIO */
+.liensp, a:hover, a:focus {
+  text-decoration: underline;
+  color: $ligne;
+}
+/* END */
+
+/* PORTFOLIO */
+.fonctions {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.souligne {
+  text-decoration: underline;
+}
+/* END */
+
