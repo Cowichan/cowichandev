@@ -1,7 +1,7 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
+$navbar-color: $ligne;
 $navbar-hover-color: $red;
 $navbar-font-family: $header-font;
 $navbar-bg: white;
@@ -9,7 +9,7 @@ $navbar-bg: white;
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 50px;
+$navbar-height: 65px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 /*$navbar-horizontal-padding: 10%;*/
@@ -66,6 +66,7 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > .open > a:focus {
     outline: none;
     color: $navbar-color;
+    font-weight: bold;
     line-height: $navbar-height;
     padding-top: $navbar-vertical-padding;
     padding-bottom: $navbar-vertical-padding;
