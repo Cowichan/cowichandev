@@ -9,7 +9,7 @@
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Développeur web, je vous conseille et vous accompagne pour le lancement et la gestion de votre site web.">
+    <meta name="description" content="<%= current_page.data.description || "APIGRAPHE - Cowichan Fournier" %>">
     <link rel="icon" type="image/ico" href="../images/fav4.png" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
@@ -54,6 +54,11 @@
             <li>
               <% link_to "/portfolio.html" do %>
                 Portfolio
+              <% end %>
+            </li>
+            <li>
+              <% link_to "/apropos.html" do %>
+                À propos
               <% end %>
             </li>
             <li>

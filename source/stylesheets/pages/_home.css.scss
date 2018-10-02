@@ -158,3 +158,10 @@ transition-delay:.2s;
 .contact {
   min-height: 700px;
 }
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
