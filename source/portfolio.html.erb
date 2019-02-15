@@ -11,7 +11,7 @@ category: réalisation
         <h1 class="underl">Réalisations</h1>
         <hr>
         <p>
-        Les dernières réalisations
+        Les toutes dernières réalisations
         </p>
       </div>
     </div>
@@ -21,6 +21,18 @@ category: réalisation
   <div class="container2 text-center">
     <div class="row">
      
+     <div class="col-xs-12 col-sm-4 paddedphotos">
+       <div class="hovereffect">
+           <img class="img-responsive" src="images/portfolio/futurio.jpg" alt="Cowichan Fournier création de sites Internet sur Gap">
+           <div class="overlay">
+              <h2>Votre projet</h2>
+              <% link_to "contact.html", class: "info" do %>Un projet ? Contactez moi<% end %>
+           </div>
+       </div>
+       <p>
+       <% link_to "contact.html", class: "liensp" do %>Votre futur projet ?<% end %>
+       </p>
+     </div>
       <div class="col-xs-12 col-sm-4 paddedphotos">
         <div class="hovereffect">
             <img class="img-responsive" src="images/portfolio/lemas3.png" alt="Développement du site Le Mas Bleu en Provence créé par Cowichan Fournier">
@@ -87,21 +99,6 @@ category: réalisation
         <% link_to "http://www.conciergerielorchidee.com/", class: "liensp", target: "_blank" do %>www.conciergerielorchidee.com<% end %>
         </p>
       </div>
-      
-      <div class="col-xs-12 col-sm-4 paddedphotos">
-        <div class="hovereffect">
-            <img class="img-responsive" src="images/portfolio/elcamino.png" alt="Cowichan Fournier">
-            <div class="overlay">
-               <h2>WordPress</h2>
-               <% link_to "/elcamino.html", class: "info" do %>En savoir plus<% end %>
-            </div>
-        </div>
-        <p>
-        <% link_to "http://elcamino-mineraux.com/", class: "liensp", target: "_blank" do %>www.elcamino-mineraux.com<% end %>
-        </p>
-      </div>
-
-
     </div>
   </div>
 </div>
