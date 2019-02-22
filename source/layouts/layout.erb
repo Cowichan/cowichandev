@@ -12,6 +12,7 @@
     <meta name="description" content="APIGRAPHE | Création de sites Internet à Gap. Conseils personnalisés, création, hébergement, référencement et maintenance. Soyez visible avec un site Internet livré clé en main.">
     <link rel="icon" type="image/ico" href="../images/fav4.png" />
 
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Apigraphe" %></title>
 
@@ -49,6 +50,11 @@
             <li>
               <% link_to "/index.html" do %>
                 Accueil
+              <% end %>
+            </li>
+            <li>
+              <% link_to "/creations.html" do %>
+                Votre projet
               <% end %>
             </li>
             <li>
