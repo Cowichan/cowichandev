@@ -9,7 +9,7 @@
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="APIGRAPHE | Création de sites Internet à Gap. Conseils personnalisés, création, hébergement, référencement et maintenance. Soyez visible avec un site Internet livré clé en main.">
+    <meta name="description" content="APIGRAPHE | Micro-entreprise de création de sites Internet créée par Cowichan Fournier, développeur web à Gap. Conseils personnalisés, création, hébergement, référencement et maintenance. Soyez visible avec un site Internet livré clé en main.">
     <link rel="icon" type="image/ico" href="../images/fav4.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -61,11 +61,15 @@
                 Accueil
               <% end %>
             </li>
-            <li>
-              <% link_to "/creations.html" do %>
-                Votre projet
-              <% end %>
-            </li>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Votre projet
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item menulien" href="/creations.html">Les étapes de création</a><br>
+                      <a class="dropdown-item menulien" href="fonctionnalites.html">Les fonctionnalités</a>
+                    </div>
+                  </li>
             <li>
               <% link_to "/portfolio.html" do %>
                 Réalisations

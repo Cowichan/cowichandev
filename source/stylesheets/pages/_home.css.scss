@@ -174,3 +174,13 @@ transition-delay:.2s;
 .center {
   text-align: center;
 }
+
+a.menulien {
+color: #5a5a5a;
+font-weight: bold;
+}
+
+a.menulien:hover {
+    color: #EE5F5B;
+    text-decoration: none;
+}
