@@ -184,3 +184,9 @@ a.menulien:hover {
     color: #EE5F5B;
     text-decoration: none;
 }
+
+@media screen and (max-width: 640px) {
+  #mapsource {
+    pointer-events: none;
+    }
+}
